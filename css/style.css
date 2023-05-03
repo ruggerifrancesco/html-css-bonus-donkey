@@ -1,0 +1,306 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.donkey-game-content {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    outline: 2px solid white;
+}
+
+#relative {
+    position: relative;
+}
+
+/* Donkey */
+#donkey-kong {
+    position: absolute;
+    top: 172px;
+    left: 24px;
+}
+
+/* Floors Section */
+
+.col {
+    height: 32px;
+}
+#floor-hostage {
+    position: absolute;
+    top: 140px;
+}
+#floor-1 {
+    position: absolute;
+    top: 260px;
+}
+#floor-2 {
+    position: absolute;
+    top: 340px;
+}
+#floor-3 {
+    position: absolute;
+    top: 440px;
+}
+#floor-4 {
+    position: absolute;
+    top: 540px;
+}
+#floor-5 {
+    position: absolute;
+    top: 640px;
+}
+#floor-6 {
+    position: absolute;
+    bottom: 0;
+}
+    .m-top-gen {
+        margin-top: 32px;
+    }
+    .m-top-gen-30 {
+        margin-top: 30px;
+    }
+    .m-top-gen-28 {
+        margin-top: 28px; 
+    }
+    .m-top-gen-26 {
+        margin-top: 26px; 
+    }
+    .m-top-gen-24 {
+        margin-top: 24px; 
+    }
+    .m-top-gen-22 {
+        margin-top: 22px; 
+    }
+    .m-top-gen-20 {
+        margin-top: 20px; 
+    }
+    .m-top-gen-18 {
+        margin-top: 18px; 
+    }
+    .m-top-gen-16 {
+        margin-top: 16px; 
+    }
+    .m-top-gen-14 {
+        margin-top: 14px; 
+    }
+    .m-top-gen-12 {
+        margin-top: 12px; 
+    }
+    .m-top-gen-10 {
+        margin-top: 10px; 
+    }
+    .m-top-gen-8 {
+        margin-top: 8px; 
+    }
+    .m-top-gen-6 {
+        margin-top: 6px; 
+    }
+    .m-top-gen-4 {
+        margin-top: 4px; 
+    }
+    .m-top-gen-2 {
+        margin-top: 2px; 
+    }
+
+
+/* Items Section */
+.brick {
+    width: 100%;
+    height: 100%;
+    background-color: #fc2053;
+    padding-top: 4px;
+    position: relative;
+    z-index: 2;
+}
+    .border-inn-top {
+        background-color: #8e0103;
+        height: 4px;
+        width: 100%;
+    }
+    .border-inn-bttom {
+        background-color: #8e0103;
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .black-container {
+        background-color: black;
+        width: 100%;
+        height: 16px;
+        position: relative;
+    }
+        .strip-1 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            bottom: 0;
+        }
+        .strip-2 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .strip-3 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            top: 0;
+            left: 8px;
+        }
+        .strip-4 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            top: 4px;
+            left: 12px;
+        }
+        .strip-5 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+        }
+
+        .strip-adder {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            left: 50%;
+            bottom: -4px;
+            transform: translate(-50%);
+        }
+
+        .strip-6 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            bottom: 0;
+            right: 16px;
+        }
+        .strip-7 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            top: 4px;
+            right: 12px;
+        }
+        .strip-8 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            top: 0;
+            right: 8px;
+        }
+        .strip-9 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            top: 4px;
+            right: 4px;
+        }
+        .strip-10 {
+            background-color: #fc2053;
+            height: 8px;
+            width: 4px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    
+.ladder {
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ladder-tall {
+    width: 50%;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+    .ld-strip {
+        background-color: black;
+        width: 72%;
+        height: 10px;
+    }
+
+.ladder-right {
+    position: absolute;
+    right: 0;
+}
+    #inn-floor-hostage {
+        position: absolute;
+        top: 80px;
+    }
+    #inn-floor1-2 {
+        position: absolute;
+        top: 280px;
+    }
+    #inn-floor2-3 {
+        position: absolute;
+        top: 380px;
+    }
+    #inn-floor3-4 {
+        position: absolute;
+        top: 480px;
+    }
+    #inn-floor4-5 {
+        position: absolute;
+        top: 580px;
+    }
+    #inn-floor5-6 {
+        position: absolute;
+        top: 680px;
+    }
+
+.barrel {
+
+}
