@@ -39,6 +39,18 @@ h1 {
         font-size: 1.4rem;
         text-align: center;
     }
+    .col-4-infos {
+        flex-basis: calc((100% / 12) * 4);
+        max-width: calc((100% / 12) * 4);
+        color: blue;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .col-4-infos:nth-child(1) > img {
+            width: 15%;
+        }
 
 .wrapper {
     margin: 0 auto;
@@ -57,10 +69,10 @@ h1 {
     position: relative;
 }
 
-/* Donkey */
+/* Elements Entities */
 #donkey-kong {
     position: absolute;
-    top: 200px;
+    top: 160px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
@@ -70,7 +82,15 @@ h1 {
     }
 #princess {
     position: absolute;
-    top: 95px; 
+    top: 55px; 
+}
+
+#oil-barrel {
+    position: absolute;
+    bottom: 85px;
+}
+#oil-barrel > img {
+    width: 70%;
 }
 
 /* Floors Section */
