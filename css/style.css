@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+    font-family: 'Press Start 2P', cursive;
 }
 
 main {
@@ -22,16 +23,34 @@ img {
     width: 100%;
 }
 
+h1 {
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+
+    /* Col Text Library*/
+    .col-4-text {
+        flex-basis: calc((100% / 12) * 4);
+        max-width: calc((100% / 12) * 4);
+        color: white;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
 .wrapper {
     margin: 0 auto;
     max-width: 600px;
 }
 
 .donkey-game-content {
-    height: 800px;
+    height: 900px;
     width: 100%;
     position: relative;
     outline: 2px solid white;
+    overflow: hidden;
 }
 
 #relative {
@@ -41,8 +60,17 @@ img {
 /* Donkey */
 #donkey-kong {
     position: absolute;
-    top: 172px;
-    left: 24px;
+    top: 200px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+    /* Framwork measure Adder */
+    .offset-col-donkey {
+        margin-left: calc((100% / 14) * 0.6);
+    }
+#princess {
+    position: absolute;
+    top: 95px; 
 }
 
 /* Floors Section */
@@ -52,27 +80,27 @@ img {
 }
 #floor-hostage {
     position: absolute;
-    top: 140px;
+    bottom: 630px;
 }
 #floor-1 {
     position: absolute;
-    top: 260px;
+    bottom: 500px;
 }
 #floor-2 {
     position: absolute;
-    top: 340px;
+    bottom: 400px;
 }
 #floor-3 {
     position: absolute;
-    top: 440px;
+    bottom: 300px;
 }
 #floor-4 {
     position: absolute;
-    top: 540px;
+    bottom: 200px;
 }
 #floor-5 {
     position: absolute;
-    top: 640px;
+    bottom: 100px;
 }
 #floor-6 {
     position: absolute;
@@ -278,27 +306,27 @@ img {
 }
     #inn-floor-hostage {
         position: absolute;
-        top: 80px;
+        top: 180px;
     }
     #inn-floor1-2 {
         position: absolute;
-        top: 280px;
+        bottom: 500px;
     }
     #inn-floor2-3 {
         position: absolute;
-        top: 380px;
+        bottom: 400px;
     }
     #inn-floor3-4 {
         position: absolute;
-        top: 480px;
+        bottom: 300px;
     }
     #inn-floor4-5 {
         position: absolute;
-        top: 580px;
+        bottom: 200px;
     }
     #inn-floor5-6 {
         position: absolute;
-        top: 680px;
+        bottom: 100px;
     }
 
 .barrel {
